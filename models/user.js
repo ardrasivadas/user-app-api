@@ -17,5 +17,5 @@ const schema = mongoose.Schema(
 }
 )
 
-let coursemodel = mongoose.model("courses",schema)
-module.exports = {coursemodel}
+let usermodel = mongoose.model("users",schema)
+module.exports = {usermodel}
